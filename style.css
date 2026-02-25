@@ -5,11 +5,11 @@
 }
 .header{
   flex: 20%;
-  background-color: lightgray;
+  background-color: darkgray;
 }
 .menu{
   flex: 5%;
-  background-color: darkgray;
+  background-color: lightgray;
   display: flex;
   align-items: center;
 }
@@ -18,14 +18,14 @@
   color: pink;
 }
 .menu hover{
-  background-color: lightgray;
+  background-color: darkgray;
   color: black;
 }
 .content{
   flex: 70%;
   background-color: white;
 }
-.content{
+.content iframe{
   flex: 1;
   border: none;
   width: 100%;
@@ -35,7 +35,6 @@
   flex: 5%;
   background-color: lightgray;
 }
-
 h1 {
   color: red;
 }
