@@ -22,6 +22,10 @@
   color: black;
 }
 .content{
+  flex: 70%;
+  background-color: white;
+}
+.content{
   flex: 1;
   border: none;
   width: 100%;
