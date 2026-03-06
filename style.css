@@ -6,7 +6,7 @@
 .header{
   flex: 20%;
   background-color: darkgray;
-  background: url("../images/tuyensinhngoquyen.jpg") center/100% 100% ;
+  background: url("images/tuyensinhngoquyen.jpg") center/100% 100% ;
   aspect-ratio: 6/1; 
 }
 .menu{
