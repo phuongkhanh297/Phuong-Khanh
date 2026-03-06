@@ -19,7 +19,7 @@
   padding: 15px 20px;
   color: brown;
 }
-.menu hover{
+.menu a:hover{
   background-color: darkgray;
   color: black;
 }
