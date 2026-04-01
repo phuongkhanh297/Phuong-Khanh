@@ -1,27 +1,26 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title> Bai7-NV1 </title>
+    <title> Đăng kí hội thao </title>
 </head>
 <body>
-    <h2> Đóng góp ý kiến cho thư viện của nhà trường</h2>
-    <form action="Bai7-NV3.html" <h3>1. Thông tin về người góp ý</h3>
+    <h2> Đăng kí môn hội thao  </h2>
+    <form action="Hoithaoph.html" <h3>1. Thông tin về người đăng kí </h3>
         <label> Họ và tên: <input type="text" name="txtTen"></label><br>
         <label> Địa chỉ email: <input type="email" name="txtEmail"></label>
         <h4> Khối </h4>
-        <h3>2. Đóng góp ý kiến</h3>
-        <label> Ý kiến đóng góp: <br>
-            <textarea name="txtComment" rows="6" cols="40"></textarea>
-        </label><br><br>
+        <input type="radio" name="otpTime" value="S">10
+        <input type="radio" name="otpTime" value="C">11
+        <input type="radio" name="otpTime" value="T">12
 
-        <label> Thể loại cần bổ sung thêm sách: </label><br>
-        <input type="checkbox" name="chkTruyenNgan"> Truyện ngắn <br>
-        <input type="checkbox" name="chkKiNang"> Kĩ năng sống <br>
-        <input type="checkbox" name="chkCNTT"> Công nghệ thông tin <br>
-        <input type="checkbox" name="chkTruyenTranh"> Truyện tranh <br>
-        <input type="checkbox" name="chkLichSu"> Lịch sử <br><br>
+        <label> Các môn đăng kí: </label><br>
+        <input type="checkbox" name="chkBongro"> Bóng rổ <br>
+        <input type="checkbox" name="chkBongchuyen"> Bóng chuyền <br>
+        <input type="checkbox" name="chkCaulong"> Cầu lông <br>
+        <input type="checkbox" name="chkDaBanh"> Đá Banh <br>
+        <input type="checkbox" name="chkKeoco"> Kéo co <br><br>
 
-        <input type="submit" name="cmd" value="Góp ý">
+        <input type="submit" name="cmd" value="Nộp">
        
      </form>
 </body>
